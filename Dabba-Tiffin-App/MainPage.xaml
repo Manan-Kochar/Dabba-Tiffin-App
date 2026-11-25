@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dabba_Tiffin_App.MainPage"
+             BackgroundColor="#F1EFFF"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+
+
+
+
+            <HorizontalStackLayout Spacing="170" BackgroundColor="Indigo" >
+                    
+                    <VerticalStackLayout Padding="10">
+
+                    <Label Text="Deliver To" TextColor="Gray" FontSize="15" />
+                    <Label Text="Sirsa, Haryana" TextColor="White" FontSize="20" />
+
+                    </VerticalStackLayout>
+
+                    <Image Source="notification.png"
+                           HeightRequest="30"
+                           WidthRequest="30"
+                           HorizontalOptions="End" 
+                           Margin="10"/>
+
+
+                </HorizontalStackLayout>
+
+
+            <VerticalStackLayout   BackgroundColor="Indigo" Padding="10">
+                    <Label Text="Lunch like" TextColor="white" FontSize="30"/>
+                    
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="mummy" TextColor="white" FontSize="30"/>
+                    <Label Text="made it." TextColor="#FF9F1C" FontSize="30"/>
+                </HorizontalStackLayout>
+                    
+                </VerticalStackLayout>
+
+            <VerticalStackLayout BackgroundColor="Indigo" Padding="10">
+                <Frame CornerRadius="20" BackgroundColor="White">
+                    <Entry Placeholder="Rajma , Poha , thali..." PlaceholderColor="#75738F">
+                        
+                    </Entry>
+                    
+                    
+                </Frame>
+                 
+            </VerticalStackLayout>
+
+            <ScrollView Orientation="Horizontal"   Margin="10" >
+                <HorizontalStackLayout Spacing="10" >
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                        <Frame CornerRadius="20" BackgroundColor="#E4572E" WidthRequest="50" HeightRequest="50" >
+                    </Frame>
+                        <Label Text="Spicy" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                        <Frame CornerRadius="20" BackgroundColor="#2EC486"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                        <Label Text="Veg" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                    <Frame CornerRadius="20" BackgroundColor="#FF9F1C"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                        <Label Text="Sweet" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                    <Frame CornerRadius="20" BackgroundColor="#E4572E"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                        <Label Text="Spicy" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                    <Frame CornerRadius="20" BackgroundColor="#2EC486"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                        <Label Text="Veg" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                    <Frame CornerRadius="20" BackgroundColor="#E4572E"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                       <Label Text="Spicy" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Margin="5" Spacing="5">
+                    <Frame CornerRadius="20" BackgroundColor="#FF9F1C"  WidthRequest="50" HeightRequest="50">
+                    </Frame>
+                        <Label Text="Sweet" TextColor="Black" FontSize="15"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </ScrollView>
+
+
+            <Frame CornerRadius="15" HeightRequest="150" BackgroundColor="#FF9F1C" Margin="15">
+
+                <HorizontalStackLayout>
+
+                    <VerticalStackLayout>
+
+                        <Label Text="Todays's Special" TextColor="#75738F" FontSize="20" />
+                        <Label Text="Rajma Chawal Thali" TextColor="Black" FontSize="25"/>
+                        <Label Text="Rajma,Jeera rice ,salad" TextColor="#75738F" FontSize="20" />
+
+                    </VerticalStackLayout>
+                    
+                    <Image Source="thali.jpg"
+                           HeightRequest="100"
+                           WidthRequest="100"
+                           HorizontalOptions="End" 
+                           Margin="10"/>
+
+                </HorizontalStackLayout>
+                
+            </Frame>
+
+            <FlexLayout Wrap="Wrap" Margin="8" >
+
+                <Frame BackgroundColor="Indigo" CornerRadius="20" Margin="2">
+                    <Label Text="All" TextColor="White" />
+                </Frame>
+                <Frame BorderColor="#2EC4B6" CornerRadius="20" Margin="2" >
+                    <Label Text="Pure Veg" TextColor="#2EC4B6" />
+                </Frame>
+                <Frame BorderColor="#E4572E" CornerRadius="20" Margin="2" >
+                    <Label Text="Spicy" TextColor="#E4572E" />
+                </Frame>
+                <Frame BorderColor="LightGray" CornerRadius="20" Margin="2">
+                    <Label Text="Under $15" TextColor="Black" />
+                </Frame>
+                <Frame BorderColor="LightGray" CornerRadius="20" Margin="2" >
+                    <Label Text="Jain" TextColor="Black" />
+                </Frame>
+                <Frame BorderColor="LightGray" CornerRadius="20" Margin="2" >
+                    <Label Text="Less Oil" TextColor="Black" />
+                </Frame>
+
+            </FlexLayout>
+
+
+            <HorizontalStackLayout Spacing="150" Margin="5">
+                
+                <Label Text="Cooking near you"
+                        TextColor="Black"
+                        FontSize="18"
+                       FontAttributes="Bold"/> 
+                <Label Text="See All"
+                        TextColor="#FF9F1C"
+                        FontSize="18"
+                        HorizontalOptions="EndAndExpand"/>
+
+            </HorizontalStackLayout>
+
+            <VerticalStackLayout
+                Spacing="5"
+                Padding="10">
+
+            <Grid ColumnDefinitions="*,*"
+             RowDefinitions="Auto,Auto"
+             ColumnSpacing="12"
+             RowSpacing="15">
+
+
+                <Frame  Grid.Row="0"
+     Grid.Column="0"
+     Grid.RowSpan="2"
+     CornerRadius="12"
+     Padding="8"
+     BackgroundColor="OrangeRed">
+                    <VerticalStackLayout Spacing="5">
+                        <Image Source="thali.jpg"
+                           HeightRequest="200"
+                           WidthRequest="200"
+                           HorizontalOptions="Center" 
+                           Margin="10"/>
+
+                            <Label Text="Auty Meena's"
+             FontAttributes="Bold"
+             FontSize="14"
+             TextColor="Black"/>
+                        <Label Text="Rajasthani thali"
+             FontAttributes="Bold"
+             FontSize="14"
+             TextColor="Black"/>
+
+                        <Label Text="Dal batti, 25 min"
+             FontSize="12"
+             TextColor="Black"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                    <Frame Grid.Row="0"
+     Grid.Column="1"
+     CornerRadius="12"  
+     Padding="8"
+     BackgroundColor="#FF9F1C">
+
+                        <VerticalStackLayout Spacing="5">
+                            <Image Source="dotnet_bot.png"/>
+
+
+                            <Label Text="Poha Jalebi"
+             FontAttributes="Bold"
+             FontSize="14"
+             TextColor="Black"/>
+
+                            <Label Text="$89                                 ADD"
+             FontSize="12"
+             TextColor="Black"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame Grid.Row="1"
+     Grid.Column="1"
+     CornerRadius="12"
+     Padding="8"
+     BackgroundColor="#2EC4B6">
+
+                        <VerticalStackLayout Spacing="5">
+                            <Image Source="dotnet_bot.png"/>
+
+
+                            <Label Text="Pizza Palace"
+             FontAttributes="Bold"
+             FontSize="14"
+             TextColor="Black"/>
+                            
+
+                            <Label Text="$40                                  ADD"
+             FontSize="12"
+             TextColor="Black"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+
+                </Grid>
+            </VerticalStackLayout>
+
+            <Frame Margin="8" CornerRadius="15" BackgroundColor="#16152F">
+
+                <HorizontalStackLayout Spacing="160">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Label Text="2 items" TextColor="#75738F" FontSize="15"/>
+                        <Label Text="$308" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+
+                    </VerticalStackLayout>
+                    
+                    <Button Text="View Cart"
+                            BackgroundColor="#FF9F1C"
+                            TextColor="White"
+                            FontSize="15"
+                            CornerRadius="20"
+                            HorizontalOptions="EndAndExpand"
+                            Margin="10"/>
+
+                </HorizontalStackLayout>
+
+            </Frame>
+
+
+            <HorizontalStackLayout Spacing="48">
+
+
+                <Image Source="home.png" HeightRequest="50" WidthRequest="40" Margin="10"/>
+                <Image Source="search.png" HeightRequest="50" WidthRequest="40" Margin="10"/>
+                <Image Source="ordericon.png" HeightRequest="50" WidthRequest="40" Margin="10"/>
+                <Image Source="profile.png" HeightRequest="50" WidthRequest="40" Margin="10"/>
+               
+
+            </HorizontalStackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
